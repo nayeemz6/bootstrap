@@ -1,0 +1,244 @@
+.body{
+    margin: 0px;
+}
+
+.bgimg{
+    background-image:linear-gradient(to right, rgba(22, 25, 51, 0.801), rgba(26, 20, 41, 0.836)),url('../img/img2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height: 600px;
+    
+}
+
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h3{
+    font-size: 12px;
+    color: #75F785;
+    font-weight: bold;
+}
+.headerset h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#D6F775 ;
+}
+.headerset span{
+    color: crimson;
+}
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0px !important;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.fa-desktop{
+    margin: 20px;
+}
+.fa-laptop{
+    margin: 20px;
+}
+.fa-android{
+    margin: 20px;
+}
+.rowsetting h2{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    color: #6c757d!important;
+    padding: 10px;
+}
+.profolio{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+.profolio h1{
+
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px !important;
+}
+
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+    
+}
+::placeholder{
+    color: #999;
+
+}
+.follow{
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px;
+
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+#footer{
+    padding: 20px;
+    background-color: #333;
+}
+.footer{
+    height: 50px; 
+    color: antiquewhite; 
+}
+.footer h6{
+    line-height: 50px;
+}
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .bg-img{
+        width:100%;
+        height: 300px;
+    }
+    .headerset h2{
+        font-size: 42px;
+        
+    }
+    .headerset h1{
+        font-size: 62px;
+        font-weight: bold;
+
+    }
+    .ourservices{
+        height: 700px;
+    }
+    .profolio{
+       
+        height: 1200px;
+    }
+    .ourteam{
+        height: 600px;
+    }
+}
+@media(min-width: 523px) and (max-width: 767px){
+    .bg-img{
+        width:100%;
+        height: 300px;
+    }
+    .headerset h2{
+        font-size: 42px;
+        
+    }
+    .headerset h1{
+        font-size: 52px;
+        font-weight: bold;
+
+    }
+    .ourservices{
+        height: 1200px;
+        
+    }
+    .profolio{
+       
+        height: 2700px;
+    }
+    .ourteam{
+        height: 1200px;
+    }
+
+}
+@media(min-width: 480px) and (max-width: 524px){
+    .bg-img{
+        width:100%;
+        height: 300px;
+    }
+    .headerset h2{
+        font-size: 22px;
+        
+    }
+    .headerset h1{
+        font-size: 42px;
+        font-weight: bold;
+
+    }
+    .ourservices{
+        height: 1200px;
+    }
+    .profolio{
+       
+        height: 2700px;
+    }
+    .ourteam{
+        height: 1200px;
+    }
+
+
+}
+@media(max-width: 479px){
+    .bg-img{
+        width:50%;
+        height: 50%;
+    }
+    .headerset h2{
+        font-size: 22px;
+        
+    }
+    .headerset h1{
+        font-size: 42px;
+        font-weight: bold;
+
+    }
+    .ourservices{
+        height: 1200px;
+    }
+    .profolio{
+       
+        height: 2700px;
+    }
+    .ourteam{
+        height: 1200px;
+    }
+        
+    
+}
